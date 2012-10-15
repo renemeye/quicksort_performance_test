@@ -1,9 +1,3 @@
-Aufruf
-======
-node --stack_size=1000000 quicksort.js > firstround.md
-
-Output
-======
 
 The following Output is defined as:
 
