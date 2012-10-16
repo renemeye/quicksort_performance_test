@@ -1,10 +1,20 @@
+var data_base = [];
+data_base["random"] = require("./data_random.js").data;
+data_base["RANDOM_200000_1"] = require("./arr_RANDOM_200000_1.txt").data;						
+data_base["RANDOM_200000_2"] = require("./arr_RANDOM_200000_2.txt").data;						
+data_base["RANDOM_200000_3"] = require("./arr_RANDOM_200000_3.txt").data;	
+data_base["RANDOM_50000_1"] = require("./arr_RANDOM_50000_1.txt").data;	
+data_base["RANDOM_50000_2"] = require("./arr_RANDOM_50000_2.txt").data;
+data_base["RANDOM_50000_3"] = require("./arr_RANDOM_50000_3.txt").data;
+data_base["SORTED_200000"] = require("./arr_SORTED_200000.txt").data;	
+data_base["SORTED_50000"] = require("./arr_SORTED_50000.txt").data;	
+data_base["SORTED_INVERSE_200000"] = require("./arr_SORTED_INVERSE_200000.txt").data;
+data_base["SORTED_INVERSE_50000"] = require("./arr_SORTED_INVERSE_50000.txt").data;
+
+
+var iterations = 1;
+
 var data = [];
-
-var data_random = require("./data_random.js").data;
-
-var data2 = [5,4,18,3,2,2,42,1,2];
-var iterations = 20;
-
 var stats = require('measured');
 var timer = null;
 var stopwatch = null;
@@ -17,36 +27,39 @@ var test_iteration = 0;
 
 
 printHelp();
-console.log("Random Array of length "+data_random.length+" at quicksort_iterativ() with "+iterations+" iterations");
-console.log("========================================================================");
-var timer = new stats.Timer();
-test_iteration = 0;
-while (test_iteration < iterations){
-	test_iteration++;
-	data = data_random.slice(0); //copy the array
-	stopwatch = timer.start();
-	quicksort_iterativ(0,(data.length)-1);
-	console.log("Did iteration "+test_iteration+" of "+iterations+" in: "+stopwatch.end()+" miliseconds");
+
+for(var experiment in data_base){
+
+	console.log("Array ("+experiment+") of length "+data_base[experiment].length+" at quicksort_iterativ() with "+iterations+" iterations");
+	console.log("==================================================================================");
+	var timer = new stats.Timer();
+	test_iteration = 0;
+	while (test_iteration < iterations){
+		test_iteration++;
+		data = data_base[experiment].slice(0); //copy the array
+		stopwatch = timer.start();
+		quicksort_iterativ(0,(data.length)-1);
+		console.log("Did iteration "+test_iteration+" of "+iterations+" in: "+stopwatch.end()+" miliseconds");
+	}
+	console.log(timer.toJSON().histogram);
+	console.log("\n\n\n");
+
+
+
+	console.log("Array ("+experiment+") of length "+data_base[experiment].length+" at quicksort_recursiv() with "+iterations+" iterations");
+	console.log("==================================================================================");
+	var timer = new stats.Timer();
+	test_iteration = 0;
+	while (test_iteration < iterations){
+		test_iteration++;
+		data = data_base[experiment].slice(0); //copy the array
+		stopwatch = timer.start();
+		quicksort(0,(data.length)-1);
+		console.log("Did iteration "+test_iteration+" of "+iterations+" in: "+stopwatch.end()+" miliseconds");
+	}
+	console.log(timer.toJSON().histogram);
+	console.log("\n\n\n");
 }
-console.log(timer.toJSON().histogram);
-console.log("\n\n\n");
-
-
-
-console.log("Random Array of length "+data_random.length+" at quicksort_rekursive() with "+iterations+" iterations");
-console.log("========================================================================");
-var timer = new stats.Timer();
-test_iteration = 0;
-while (test_iteration < iterations){
-	test_iteration++;
-	data = data_random.slice(0); //copy the array
-	stopwatch = timer.start();
-	quicksort(0,(data.length)-1);
-	console.log("Did iteration "+test_iteration+" of "+iterations+" in: "+stopwatch.end()+" miliseconds");
-}
-console.log(timer.toJSON().histogram);
-console.log("\n\n\n");
-
 
 //////////////////////
 //////////////////////
