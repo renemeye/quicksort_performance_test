@@ -1,0 +1,857 @@
+
+
+
+
+
+The following Output is defined as:
+
+min: The lowest observed value.
+max: The highest observed value.
+sum: The sum of all observed values.
+variance: The variance of all observed values.
+mean: The average of all observed values.
+stddev: The stddev of all observed values.
+count: The number of observed values.
+median: 50% of all values in the resevoir are at or below this value.
+p75: See median, 75% percentile.
+p95: See median, 95% percentile.
+p99: See median, 99% percentile.
+p999: See median, 99.9% percentile.
+
+Array (random) of length 24000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 918 miliseconds
+Did iteration 2 of 20 in: 909 miliseconds
+Did iteration 3 of 20 in: 917 miliseconds
+Did iteration 4 of 20 in: 897 miliseconds
+Did iteration 5 of 20 in: 903 miliseconds
+Did iteration 6 of 20 in: 901 miliseconds
+Did iteration 7 of 20 in: 905 miliseconds
+Did iteration 8 of 20 in: 899 miliseconds
+Did iteration 9 of 20 in: 911 miliseconds
+Did iteration 10 of 20 in: 915 miliseconds
+Did iteration 11 of 20 in: 900 miliseconds
+Did iteration 12 of 20 in: 918 miliseconds
+Did iteration 13 of 20 in: 899 miliseconds
+Did iteration 14 of 20 in: 909 miliseconds
+Did iteration 15 of 20 in: 906 miliseconds
+Did iteration 16 of 20 in: 933 miliseconds
+Did iteration 17 of 20 in: 903 miliseconds
+Did iteration 18 of 20 in: 905 miliseconds
+Did iteration 19 of 20 in: 944 miliseconds
+Did iteration 20 of 20 in: 926 miliseconds
+{ min: 897,
+  max: 944,
+  sum: 18218,
+  variance: 151.8842105263152,
+  mean: 910.9,
+  stddev: 12.324131228054787,
+  count: 20,
+  median: 907.5,
+  p75: 917.75,
+  p95: 943.45,
+  p99: 944,
+  p999: 944 }
+
+
+
+
+Array (random) of length 24000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 351 miliseconds
+Did iteration 2 of 20 in: 338 miliseconds
+Did iteration 3 of 20 in: 335 miliseconds
+Did iteration 4 of 20 in: 344 miliseconds
+Did iteration 5 of 20 in: 335 miliseconds
+Did iteration 6 of 20 in: 343 miliseconds
+Did iteration 7 of 20 in: 336 miliseconds
+Did iteration 8 of 20 in: 335 miliseconds
+Did iteration 9 of 20 in: 344 miliseconds
+Did iteration 10 of 20 in: 337 miliseconds
+Did iteration 11 of 20 in: 356 miliseconds
+Did iteration 12 of 20 in: 342 miliseconds
+Did iteration 13 of 20 in: 337 miliseconds
+Did iteration 14 of 20 in: 333 miliseconds
+Did iteration 15 of 20 in: 334 miliseconds
+Did iteration 16 of 20 in: 442 miliseconds
+Did iteration 17 of 20 in: 336 miliseconds
+Did iteration 18 of 20 in: 350 miliseconds
+Did iteration 19 of 20 in: 335 miliseconds
+Did iteration 20 of 20 in: 338 miliseconds
+{ min: 333,
+  max: 442,
+  sum: 6901,
+  variance: 560.9973684210527,
+  mean: 345.05,
+  stddev: 23.685383011913753,
+  count: 20,
+  median: 337.5,
+  p75: 344,
+  p95: 437.69999999999993,
+  p99: 442,
+  p999: 442 }
+
+
+
+
+Array (RANDOM_200000_1) of length 100000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 15745 miliseconds
+Did iteration 2 of 20 in: 17195 miliseconds
+Did iteration 3 of 20 in: 15746 miliseconds
+Did iteration 4 of 20 in: 15744 miliseconds
+Did iteration 5 of 20 in: 15822 miliseconds
+Did iteration 6 of 20 in: 15721 miliseconds
+Did iteration 7 of 20 in: 15682 miliseconds
+Did iteration 8 of 20 in: 15818 miliseconds
+Did iteration 9 of 20 in: 15749 miliseconds
+Did iteration 10 of 20 in: 16267 miliseconds
+Did iteration 11 of 20 in: 15811 miliseconds
+Did iteration 12 of 20 in: 15726 miliseconds
+Did iteration 13 of 20 in: 15700 miliseconds
+Did iteration 14 of 20 in: 15690 miliseconds
+Did iteration 15 of 20 in: 15784 miliseconds
+Did iteration 16 of 20 in: 15875 miliseconds
+Did iteration 17 of 20 in: 16152 miliseconds
+Did iteration 18 of 20 in: 15864 miliseconds
+Did iteration 19 of 20 in: 15851 miliseconds
+Did iteration 20 of 20 in: 15820 miliseconds
+{ min: 15682,
+  max: 17195,
+  sum: 317762,
+  variance: 116111.14736842092,
+  mean: 15888.1,
+  stddev: 340.75085820643346,
+  count: 20,
+  median: 15797.5,
+  p75: 15860.75,
+  p95: 17148.6,
+  p99: 17195,
+  p999: 17195 }
+
+
+
+
+Array (RANDOM_200000_1) of length 100000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 5232 miliseconds
+Did iteration 2 of 20 in: 5265 miliseconds
+Did iteration 3 of 20 in: 5240 miliseconds
+Did iteration 4 of 20 in: 5215 miliseconds
+Did iteration 5 of 20 in: 5237 miliseconds
+Did iteration 6 of 20 in: 5221 miliseconds
+Did iteration 7 of 20 in: 5250 miliseconds
+Did iteration 8 of 20 in: 5212 miliseconds
+Did iteration 9 of 20 in: 5206 miliseconds
+Did iteration 10 of 20 in: 5213 miliseconds
+Did iteration 11 of 20 in: 5224 miliseconds
+Did iteration 12 of 20 in: 5207 miliseconds
+Did iteration 13 of 20 in: 5231 miliseconds
+Did iteration 14 of 20 in: 5378 miliseconds
+Did iteration 15 of 20 in: 5360 miliseconds
+Did iteration 16 of 20 in: 5206 miliseconds
+Did iteration 17 of 20 in: 5201 miliseconds
+Did iteration 18 of 20 in: 5230 miliseconds
+Did iteration 19 of 20 in: 5216 miliseconds
+Did iteration 20 of 20 in: 5204 miliseconds
+{ min: 5201,
+  max: 5378,
+  sum: 104748,
+  variance: 2307.200000000001,
+  mean: 5237.4,
+  stddev: 48.033321767289856,
+  count: 20,
+  median: 5222.5,
+  p75: 5239.25,
+  p95: 5377.1,
+  p99: 5378,
+  p999: 5378 }
+
+
+
+
+Array (RANDOM_200000_2) of length 100000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 14825 miliseconds
+Did iteration 2 of 20 in: 15273 miliseconds
+Did iteration 3 of 20 in: 14679 miliseconds
+Did iteration 4 of 20 in: 14694 miliseconds
+Did iteration 5 of 20 in: 14730 miliseconds
+Did iteration 6 of 20 in: 15221 miliseconds
+Did iteration 7 of 20 in: 14852 miliseconds
+Did iteration 8 of 20 in: 14796 miliseconds
+Did iteration 9 of 20 in: 14677 miliseconds
+Did iteration 10 of 20 in: 14804 miliseconds
+Did iteration 11 of 20 in: 14681 miliseconds
+Did iteration 12 of 20 in: 14742 miliseconds
+Did iteration 13 of 20 in: 14687 miliseconds
+Did iteration 14 of 20 in: 15155 miliseconds
+Did iteration 15 of 20 in: 14789 miliseconds
+Did iteration 16 of 20 in: 14702 miliseconds
+Did iteration 17 of 20 in: 14685 miliseconds
+Did iteration 18 of 20 in: 14818 miliseconds
+Did iteration 19 of 20 in: 14734 miliseconds
+Did iteration 20 of 20 in: 15211 miliseconds
+{ min: 14677,
+  max: 15273,
+  sum: 296755,
+  variance: 40768.723684210585,
+  mean: 14837.75,
+  stddev: 201.9126635063056,
+  count: 20,
+  median: 14765.5,
+  p75: 14845.25,
+  p95: 15270.4,
+  p99: 15273,
+  p999: 15273 }
+
+
+
+
+Array (RANDOM_200000_2) of length 100000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 3518 miliseconds
+Did iteration 2 of 20 in: 3519 miliseconds
+Did iteration 3 of 20 in: 3529 miliseconds
+Did iteration 4 of 20 in: 3545 miliseconds
+Did iteration 5 of 20 in: 3517 miliseconds
+Did iteration 6 of 20 in: 3541 miliseconds
+Did iteration 7 of 20 in: 3564 miliseconds
+Did iteration 8 of 20 in: 4033 miliseconds
+Did iteration 9 of 20 in: 3543 miliseconds
+Did iteration 10 of 20 in: 3536 miliseconds
+Did iteration 11 of 20 in: 3527 miliseconds
+Did iteration 12 of 20 in: 3534 miliseconds
+Did iteration 13 of 20 in: 3525 miliseconds
+Did iteration 14 of 20 in: 3597 miliseconds
+Did iteration 15 of 20 in: 3525 miliseconds
+Did iteration 16 of 20 in: 3539 miliseconds
+Did iteration 17 of 20 in: 3526 miliseconds
+Did iteration 18 of 20 in: 3552 miliseconds
+Did iteration 19 of 20 in: 3550 miliseconds
+Did iteration 20 of 20 in: 3526 miliseconds
+{ min: 3517,
+  max: 4033,
+  sum: 71246,
+  variance: 12623.484210526321,
+  mean: 3562.3,
+  stddev: 112.35427989412028,
+  count: 20,
+  median: 3535,
+  p75: 3548.75,
+  p95: 4011.2,
+  p99: 4033,
+  p999: 4033 }
+
+
+
+
+Array (RANDOM_200000_3) of length 100000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 15619 miliseconds
+Did iteration 2 of 20 in: 15575 miliseconds
+Did iteration 3 of 20 in: 15508 miliseconds
+Did iteration 4 of 20 in: 15486 miliseconds
+Did iteration 5 of 20 in: 15776 miliseconds
+Did iteration 6 of 20 in: 15714 miliseconds
+Did iteration 7 of 20 in: 15553 miliseconds
+Did iteration 8 of 20 in: 15675 miliseconds
+Did iteration 9 of 20 in: 15549 miliseconds
+Did iteration 10 of 20 in: 15507 miliseconds
+Did iteration 11 of 20 in: 15692 miliseconds
+Did iteration 12 of 20 in: 15517 miliseconds
+Did iteration 13 of 20 in: 15555 miliseconds
+Did iteration 14 of 20 in: 15485 miliseconds
+Did iteration 15 of 20 in: 15598 miliseconds
+Did iteration 16 of 20 in: 15516 miliseconds
+Did iteration 17 of 20 in: 15988 miliseconds
+Did iteration 18 of 20 in: 15581 miliseconds
+Did iteration 19 of 20 in: 15494 miliseconds
+Did iteration 20 of 20 in: 15503 miliseconds
+{ min: 15485,
+  max: 15988,
+  sum: 311891,
+  variance: 15480.050000000025,
+  mean: 15594.55,
+  stddev: 124.41884905431341,
+  count: 20,
+  median: 15554,
+  p75: 15661,
+  p95: 15977.4,
+  p99: 15988,
+  p999: 15988 }
+
+
+
+
+Array (RANDOM_200000_3) of length 100000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 4670 miliseconds
+Did iteration 2 of 20 in: 5010 miliseconds
+Did iteration 3 of 20 in: 4628 miliseconds
+Did iteration 4 of 20 in: 4669 miliseconds
+Did iteration 5 of 20 in: 4628 miliseconds
+Did iteration 6 of 20 in: 4612 miliseconds
+Did iteration 7 of 20 in: 4759 miliseconds
+Did iteration 8 of 20 in: 4617 miliseconds
+Did iteration 9 of 20 in: 4624 miliseconds
+Did iteration 10 of 20 in: 5317 miliseconds
+Did iteration 11 of 20 in: 4640 miliseconds
+Did iteration 12 of 20 in: 4742 miliseconds
+Did iteration 13 of 20 in: 4628 miliseconds
+Did iteration 14 of 20 in: 4623 miliseconds
+Did iteration 15 of 20 in: 4621 miliseconds
+Did iteration 16 of 20 in: 4646 miliseconds
+Did iteration 17 of 20 in: 5034 miliseconds
+Did iteration 18 of 20 in: 4650 miliseconds
+Did iteration 19 of 20 in: 4836 miliseconds
+Did iteration 20 of 20 in: 4695 miliseconds
+{ min: 4612,
+  max: 5317,
+  sum: 94649,
+  variance: 34213.628947368416,
+  mean: 4732.45,
+  stddev: 184.9692648722171,
+  count: 20,
+  median: 4648,
+  p75: 4754.75,
+  p95: 5302.849999999999,
+  p99: 5317,
+  p999: 5317 }
+
+
+
+
+Array (RANDOM_50000_1) of length 50000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 3918 miliseconds
+Did iteration 2 of 20 in: 4517 miliseconds
+Did iteration 3 of 20 in: 3966 miliseconds
+Did iteration 4 of 20 in: 3858 miliseconds
+Did iteration 5 of 20 in: 3827 miliseconds
+Did iteration 6 of 20 in: 3840 miliseconds
+Did iteration 7 of 20 in: 3856 miliseconds
+Did iteration 8 of 20 in: 3866 miliseconds
+Did iteration 9 of 20 in: 4216 miliseconds
+Did iteration 10 of 20 in: 3841 miliseconds
+Did iteration 11 of 20 in: 3858 miliseconds
+Did iteration 12 of 20 in: 3833 miliseconds
+Did iteration 13 of 20 in: 3833 miliseconds
+Did iteration 14 of 20 in: 4020 miliseconds
+Did iteration 15 of 20 in: 3844 miliseconds
+Did iteration 16 of 20 in: 3843 miliseconds
+Did iteration 17 of 20 in: 3847 miliseconds
+Did iteration 18 of 20 in: 3836 miliseconds
+Did iteration 19 of 20 in: 3869 miliseconds
+Did iteration 20 of 20 in: 3948 miliseconds
+{ min: 3827,
+  max: 4517,
+  sum: 78436,
+  variance: 28141.2210526316,
+  mean: 3921.8,
+  stddev: 167.75345317647444,
+  count: 20,
+  median: 3857,
+  p75: 3940.5,
+  p95: 4501.95,
+  p99: 4517,
+  p999: 4517 }
+
+
+
+
+Array (RANDOM_50000_1) of length 50000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 1046 miliseconds
+Did iteration 2 of 20 in: 1190 miliseconds
+Did iteration 3 of 20 in: 1046 miliseconds
+Did iteration 4 of 20 in: 1056 miliseconds
+Did iteration 5 of 20 in: 1048 miliseconds
+Did iteration 6 of 20 in: 1077 miliseconds
+Did iteration 7 of 20 in: 1097 miliseconds
+Did iteration 8 of 20 in: 1054 miliseconds
+Did iteration 9 of 20 in: 1081 miliseconds
+Did iteration 10 of 20 in: 1049 miliseconds
+Did iteration 11 of 20 in: 1104 miliseconds
+Did iteration 12 of 20 in: 1071 miliseconds
+Did iteration 13 of 20 in: 1065 miliseconds
+Did iteration 14 of 20 in: 1048 miliseconds
+Did iteration 15 of 20 in: 1057 miliseconds
+Did iteration 16 of 20 in: 1046 miliseconds
+Did iteration 17 of 20 in: 1060 miliseconds
+Did iteration 18 of 20 in: 1047 miliseconds
+Did iteration 19 of 20 in: 1055 miliseconds
+Did iteration 20 of 20 in: 1061 miliseconds
+{ min: 1046,
+  max: 1190,
+  sum: 21358,
+  variance: 1109.7789473684206,
+  mean: 1067.9,
+  stddev: 33.31334488412145,
+  count: 20,
+  median: 1056.5,
+  p75: 1075.5,
+  p95: 1185.6999999999998,
+  p99: 1190,
+  p999: 1190 }
+
+
+
+
+Array (RANDOM_50000_2) of length 50000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 3776 miliseconds
+Did iteration 2 of 20 in: 3760 miliseconds
+Did iteration 3 of 20 in: 3770 miliseconds
+Did iteration 4 of 20 in: 3761 miliseconds
+Did iteration 5 of 20 in: 3789 miliseconds
+Did iteration 6 of 20 in: 3772 miliseconds
+Did iteration 7 of 20 in: 3763 miliseconds
+Did iteration 8 of 20 in: 3830 miliseconds
+Did iteration 9 of 20 in: 3758 miliseconds
+Did iteration 10 of 20 in: 3916 miliseconds
+Did iteration 11 of 20 in: 3763 miliseconds
+Did iteration 12 of 20 in: 3772 miliseconds
+Did iteration 13 of 20 in: 4167 miliseconds
+Did iteration 14 of 20 in: 3802 miliseconds
+Did iteration 15 of 20 in: 3767 miliseconds
+Did iteration 16 of 20 in: 3865 miliseconds
+Did iteration 17 of 20 in: 3787 miliseconds
+Did iteration 18 of 20 in: 3773 miliseconds
+Did iteration 19 of 20 in: 3786 miliseconds
+Did iteration 20 of 20 in: 3776 miliseconds
+{ min: 3758,
+  max: 4167,
+  sum: 76153,
+  variance: 8718.450000000012,
+  mean: 3807.65,
+  stddev: 93.37264053243868,
+  count: 20,
+  median: 3774.5,
+  p75: 3798.75,
+  p95: 4154.45,
+  p99: 4167,
+  p999: 4167 }
+
+
+
+
+Array (RANDOM_50000_2) of length 50000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 889 miliseconds
+Did iteration 2 of 20 in: 888 miliseconds
+Did iteration 3 of 20 in: 895 miliseconds
+Did iteration 4 of 20 in: 887 miliseconds
+Did iteration 5 of 20 in: 912 miliseconds
+Did iteration 6 of 20 in: 885 miliseconds
+Did iteration 7 of 20 in: 890 miliseconds
+Did iteration 8 of 20 in: 885 miliseconds
+Did iteration 9 of 20 in: 893 miliseconds
+Did iteration 10 of 20 in: 882 miliseconds
+Did iteration 11 of 20 in: 884 miliseconds
+Did iteration 12 of 20 in: 892 miliseconds
+Did iteration 13 of 20 in: 883 miliseconds
+Did iteration 14 of 20 in: 894 miliseconds
+Did iteration 15 of 20 in: 887 miliseconds
+Did iteration 16 of 20 in: 900 miliseconds
+Did iteration 17 of 20 in: 884 miliseconds
+Did iteration 18 of 20 in: 892 miliseconds
+Did iteration 19 of 20 in: 884 miliseconds
+Did iteration 20 of 20 in: 884 miliseconds
+{ min: 882,
+  max: 912,
+  sum: 17790,
+  variance: 50.89473684210521,
+  mean: 889.5,
+  stddev: 7.134054726598697,
+  count: 20,
+  median: 887.5,
+  p75: 892.75,
+  p95: 911.4,
+  p99: 912,
+  p999: 912 }
+
+
+
+
+Array (RANDOM_50000_3) of length 50000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 3846 miliseconds
+Did iteration 2 of 20 in: 3748 miliseconds
+Did iteration 3 of 20 in: 3752 miliseconds
+Did iteration 4 of 20 in: 3747 miliseconds
+Did iteration 5 of 20 in: 3887 miliseconds
+Did iteration 6 of 20 in: 3740 miliseconds
+Did iteration 7 of 20 in: 3741 miliseconds
+Did iteration 8 of 20 in: 3751 miliseconds
+Did iteration 9 of 20 in: 3735 miliseconds
+Did iteration 10 of 20 in: 3746 miliseconds
+Did iteration 11 of 20 in: 3822 miliseconds
+Did iteration 12 of 20 in: 3762 miliseconds
+Did iteration 13 of 20 in: 3745 miliseconds
+Did iteration 14 of 20 in: 3739 miliseconds
+Did iteration 15 of 20 in: 3746 miliseconds
+Did iteration 16 of 20 in: 3766 miliseconds
+Did iteration 17 of 20 in: 3741 miliseconds
+Did iteration 18 of 20 in: 3737 miliseconds
+Did iteration 19 of 20 in: 3738 miliseconds
+Did iteration 20 of 20 in: 3749 miliseconds
+{ min: 3735,
+  max: 3887,
+  sum: 75238,
+  variance: 1670.1999999999948,
+  mean: 3761.9,
+  stddev: 40.8680804540658,
+  count: 20,
+  median: 3746.5,
+  p75: 3759.5,
+  p95: 3884.95,
+  p99: 3887,
+  p999: 3887 }
+
+
+
+
+Array (RANDOM_50000_3) of length 50000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 820 miliseconds
+Did iteration 2 of 20 in: 824 miliseconds
+Did iteration 3 of 20 in: 807 miliseconds
+Did iteration 4 of 20 in: 819 miliseconds
+Did iteration 5 of 20 in: 811 miliseconds
+Did iteration 6 of 20 in: 970 miliseconds
+Did iteration 7 of 20 in: 1017 miliseconds
+Did iteration 8 of 20 in: 880 miliseconds
+Did iteration 9 of 20 in: 808 miliseconds
+Did iteration 10 of 20 in: 809 miliseconds
+Did iteration 11 of 20 in: 814 miliseconds
+Did iteration 12 of 20 in: 808 miliseconds
+Did iteration 13 of 20 in: 819 miliseconds
+Did iteration 14 of 20 in: 809 miliseconds
+Did iteration 15 of 20 in: 807 miliseconds
+Did iteration 16 of 20 in: 817 miliseconds
+Did iteration 17 of 20 in: 811 miliseconds
+Did iteration 18 of 20 in: 820 miliseconds
+Did iteration 19 of 20 in: 807 miliseconds
+Did iteration 20 of 20 in: 892 miliseconds
+{ min: 807,
+  max: 1017,
+  sum: 16769,
+  variance: 3397.2078947368395,
+  mean: 838.45,
+  stddev: 58.285571925965,
+  count: 20,
+  median: 815.5,
+  p75: 823,
+  p95: 1014.65,
+  p99: 1017,
+  p999: 1017 }
+
+
+
+
+Array (SORTED_200000) of length 100000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 16599 miliseconds
+Did iteration 2 of 20 in: 16601 miliseconds
+Did iteration 3 of 20 in: 16524 miliseconds
+Did iteration 4 of 20 in: 16459 miliseconds
+Did iteration 5 of 20 in: 16531 miliseconds
+Did iteration 6 of 20 in: 16532 miliseconds
+Did iteration 7 of 20 in: 16482 miliseconds
+Did iteration 8 of 20 in: 16584 miliseconds
+Did iteration 9 of 20 in: 16565 miliseconds
+Did iteration 10 of 20 in: 16886 miliseconds
+Did iteration 11 of 20 in: 16473 miliseconds
+Did iteration 12 of 20 in: 16643 miliseconds
+Did iteration 13 of 20 in: 16490 miliseconds
+Did iteration 14 of 20 in: 17064 miliseconds
+Did iteration 15 of 20 in: 16459 miliseconds
+Did iteration 16 of 20 in: 16470 miliseconds
+Did iteration 17 of 20 in: 16441 miliseconds
+Did iteration 18 of 20 in: 16490 miliseconds
+Did iteration 19 of 20 in: 16646 miliseconds
+Did iteration 20 of 20 in: 16451 miliseconds
+{ min: 16441,
+  max: 17064,
+  sum: 331390,
+  variance: 24078.578947368398,
+  mean: 16569.5,
+  stddev: 155.17273905995344,
+  count: 20,
+  median: 16527.5,
+  p75: 16600.5,
+  p95: 17055.1,
+  p99: 17064,
+  p999: 17064 }
+
+
+
+
+Array (SORTED_200000) of length 100000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 4704 miliseconds
+Did iteration 2 of 20 in: 4690 miliseconds
+Did iteration 3 of 20 in: 4704 miliseconds
+Did iteration 4 of 20 in: 4708 miliseconds
+Did iteration 5 of 20 in: 5089 miliseconds
+Did iteration 6 of 20 in: 4781 miliseconds
+Did iteration 7 of 20 in: 4718 miliseconds
+Did iteration 8 of 20 in: 4686 miliseconds
+Did iteration 9 of 20 in: 4725 miliseconds
+Did iteration 10 of 20 in: 4697 miliseconds
+Did iteration 11 of 20 in: 4686 miliseconds
+Did iteration 12 of 20 in: 4693 miliseconds
+Did iteration 13 of 20 in: 4694 miliseconds
+Did iteration 14 of 20 in: 4687 miliseconds
+Did iteration 15 of 20 in: 4690 miliseconds
+Did iteration 16 of 20 in: 4709 miliseconds
+Did iteration 17 of 20 in: 4687 miliseconds
+Did iteration 18 of 20 in: 4730 miliseconds
+Did iteration 19 of 20 in: 4702 miliseconds
+Did iteration 20 of 20 in: 4683 miliseconds
+{ min: 4683,
+  max: 5089,
+  sum: 94463,
+  variance: 7921.397368421024,
+  mean: 4723.15,
+  stddev: 89.0022323788624,
+  count: 20,
+  median: 4699.5,
+  p75: 4715.75,
+  p95: 5073.599999999999,
+  p99: 5089,
+  p999: 5089 }
+
+
+
+
+Array (SORTED_50000) of length 50000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 4186 miliseconds
+Did iteration 2 of 20 in: 4135 miliseconds
+Did iteration 3 of 20 in: 4114 miliseconds
+Did iteration 4 of 20 in: 4112 miliseconds
+Did iteration 5 of 20 in: 4111 miliseconds
+Did iteration 6 of 20 in: 4120 miliseconds
+Did iteration 7 of 20 in: 4104 miliseconds
+Did iteration 8 of 20 in: 4125 miliseconds
+Did iteration 9 of 20 in: 4474 miliseconds
+Did iteration 10 of 20 in: 4224 miliseconds
+Did iteration 11 of 20 in: 4113 miliseconds
+Did iteration 12 of 20 in: 4402 miliseconds
+Did iteration 13 of 20 in: 4119 miliseconds
+Did iteration 14 of 20 in: 4105 miliseconds
+Did iteration 15 of 20 in: 4101 miliseconds
+Did iteration 16 of 20 in: 4126 miliseconds
+Did iteration 17 of 20 in: 4120 miliseconds
+Did iteration 18 of 20 in: 4119 miliseconds
+Did iteration 19 of 20 in: 4112 miliseconds
+Did iteration 20 of 20 in: 4101 miliseconds
+{ min: 4101,
+  max: 4474,
+  sum: 83123,
+  variance: 10297.923684210522,
+  mean: 4156.15,
+  stddev: 101.47868586166517,
+  count: 20,
+  median: 4119,
+  p75: 4132.75,
+  p95: 4470.4,
+  p99: 4474,
+  p999: 4474 }
+
+
+
+
+Array (SORTED_50000) of length 50000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 1187 miliseconds
+Did iteration 2 of 20 in: 1167 miliseconds
+Did iteration 3 of 20 in: 1177 miliseconds
+Did iteration 4 of 20 in: 1168 miliseconds
+Did iteration 5 of 20 in: 1180 miliseconds
+Did iteration 6 of 20 in: 1175 miliseconds
+Did iteration 7 of 20 in: 1188 miliseconds
+Did iteration 8 of 20 in: 1176 miliseconds
+Did iteration 9 of 20 in: 1168 miliseconds
+Did iteration 10 of 20 in: 1179 miliseconds
+Did iteration 11 of 20 in: 1168 miliseconds
+Did iteration 12 of 20 in: 1192 miliseconds
+Did iteration 13 of 20 in: 1183 miliseconds
+Did iteration 14 of 20 in: 1172 miliseconds
+Did iteration 15 of 20 in: 1178 miliseconds
+Did iteration 16 of 20 in: 1174 miliseconds
+Did iteration 17 of 20 in: 1178 miliseconds
+Did iteration 18 of 20 in: 1182 miliseconds
+Did iteration 19 of 20 in: 1168 miliseconds
+Did iteration 20 of 20 in: 1173 miliseconds
+{ min: 1167,
+  max: 1192,
+  sum: 23533,
+  variance: 52.55526315789498,
+  mean: 1176.65,
+  stddev: 7.249500890260996,
+  count: 20,
+  median: 1176.5,
+  p75: 1181.5,
+  p95: 1191.8,
+  p99: 1192,
+  p999: 1192 }
+
+
+
+
+Array (SORTED_INVERSE_200000) of length 100000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 16452 miliseconds
+Did iteration 2 of 20 in: 16656 miliseconds
+Did iteration 3 of 20 in: 16475 miliseconds
+Did iteration 4 of 20 in: 17008 miliseconds
+Did iteration 5 of 20 in: 16486 miliseconds
+Did iteration 6 of 20 in: 16499 miliseconds
+Did iteration 7 of 20 in: 16515 miliseconds
+Did iteration 8 of 20 in: 16436 miliseconds
+Did iteration 9 of 20 in: 16473 miliseconds
+Did iteration 10 of 20 in: 16582 miliseconds
+Did iteration 11 of 20 in: 16580 miliseconds
+Did iteration 12 of 20 in: 16580 miliseconds
+Did iteration 13 of 20 in: 16460 miliseconds
+Did iteration 14 of 20 in: 16936 miliseconds
+Did iteration 15 of 20 in: 16439 miliseconds
+Did iteration 16 of 20 in: 16633 miliseconds
+Did iteration 17 of 20 in: 16600 miliseconds
+Did iteration 18 of 20 in: 16518 miliseconds
+Did iteration 19 of 20 in: 16880 miliseconds
+Did iteration 20 of 20 in: 16815 miliseconds
+{ min: 16436,
+  max: 17008,
+  sum: 332023,
+  variance: 30133.0815789472,
+  mean: 16601.15,
+  stddev: 173.58882907303453,
+  count: 20,
+  median: 16549,
+  p75: 16650.25,
+  p95: 17004.4,
+  p99: 17008,
+  p999: 17008 }
+
+
+
+
+Array (SORTED_INVERSE_200000) of length 100000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 4815 miliseconds
+Did iteration 2 of 20 in: 4707 miliseconds
+Did iteration 3 of 20 in: 4709 miliseconds
+Did iteration 4 of 20 in: 4695 miliseconds
+Did iteration 5 of 20 in: 4725 miliseconds
+Did iteration 6 of 20 in: 4768 miliseconds
+Did iteration 7 of 20 in: 4688 miliseconds
+Did iteration 8 of 20 in: 4709 miliseconds
+Did iteration 9 of 20 in: 4687 miliseconds
+Did iteration 10 of 20 in: 4734 miliseconds
+Did iteration 11 of 20 in: 4713 miliseconds
+Did iteration 12 of 20 in: 4697 miliseconds
+Did iteration 13 of 20 in: 4680 miliseconds
+Did iteration 14 of 20 in: 4808 miliseconds
+Did iteration 15 of 20 in: 4692 miliseconds
+Did iteration 16 of 20 in: 4692 miliseconds
+Did iteration 17 of 20 in: 4712 miliseconds
+Did iteration 18 of 20 in: 4690 miliseconds
+Did iteration 19 of 20 in: 4745 miliseconds
+Did iteration 20 of 20 in: 5051 miliseconds
+{ min: 4680,
+  max: 5051,
+  sum: 94717,
+  variance: 6963.923684210541,
+  mean: 4735.85,
+  stddev: 83.45012692746813,
+  count: 20,
+  median: 4709,
+  p75: 4742.25,
+  p95: 5039.2,
+  p99: 5051,
+  p999: 5051 }
+
+
+
+
+Array (SORTED_INVERSE_50000) of length 50000 at quicksort_iterativ() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 4113 miliseconds
+Did iteration 2 of 20 in: 4112 miliseconds
+Did iteration 3 of 20 in: 4112 miliseconds
+Did iteration 4 of 20 in: 4127 miliseconds
+Did iteration 5 of 20 in: 4122 miliseconds
+Did iteration 6 of 20 in: 4099 miliseconds
+Did iteration 7 of 20 in: 4128 miliseconds
+Did iteration 8 of 20 in: 4128 miliseconds
+Did iteration 9 of 20 in: 4110 miliseconds
+Did iteration 10 of 20 in: 4105 miliseconds
+Did iteration 11 of 20 in: 4144 miliseconds
+Did iteration 12 of 20 in: 4196 miliseconds
+Did iteration 13 of 20 in: 4102 miliseconds
+Did iteration 14 of 20 in: 4136 miliseconds
+Did iteration 15 of 20 in: 4104 miliseconds
+Did iteration 16 of 20 in: 4105 miliseconds
+Did iteration 17 of 20 in: 4098 miliseconds
+Did iteration 18 of 20 in: 4114 miliseconds
+Did iteration 19 of 20 in: 4119 miliseconds
+Did iteration 20 of 20 in: 4108 miliseconds
+{ min: 4098,
+  max: 4196,
+  sum: 82382,
+  variance: 483.46315789473863,
+  mean: 4119.1,
+  stddev: 21.987795657926664,
+  count: 20,
+  median: 4112.5,
+  p75: 4127.75,
+  p95: 4193.4,
+  p99: 4196,
+  p999: 4196 }
+
+
+
+
+Array (SORTED_INVERSE_50000) of length 50000 at quicksort_recursiv() with 20 iterations
+==================================================================================
+Did iteration 1 of 20 in: 1176 miliseconds
+Did iteration 2 of 20 in: 1181 miliseconds
+Did iteration 3 of 20 in: 1178 miliseconds
+Did iteration 4 of 20 in: 1197 miliseconds
+Did iteration 5 of 20 in: 1170 miliseconds
+Did iteration 6 of 20 in: 1185 miliseconds
+Did iteration 7 of 20 in: 1288 miliseconds
+Did iteration 8 of 20 in: 1177 miliseconds
+Did iteration 9 of 20 in: 1177 miliseconds
+Did iteration 10 of 20 in: 1173 miliseconds
+Did iteration 11 of 20 in: 1179 miliseconds
+Did iteration 12 of 20 in: 1169 miliseconds
+Did iteration 13 of 20 in: 1183 miliseconds
+Did iteration 14 of 20 in: 1176 miliseconds
+Did iteration 15 of 20 in: 1190 miliseconds
+Did iteration 16 of 20 in: 1178 miliseconds
+Did iteration 17 of 20 in: 1168 miliseconds
+Did iteration 18 of 20 in: 1367 miliseconds
+Did iteration 19 of 20 in: 1332 miliseconds
+Did iteration 20 of 20 in: 1179 miliseconds
+{ min: 1168,
+  max: 1367,
+  sum: 24023,
+  variance: 3246.7657894736776,
+  mean: 1201.15,
+  stddev: 56.980398291637776,
+  count: 20,
+  median: 1178.5,
+  p75: 1188.75,
+  p95: 1365.25,
+  p99: 1367,
+  p999: 1367 }
+
+
+
+
+--- Finished ---

@@ -12,7 +12,7 @@ data_base["SORTED_INVERSE_200000"] = require("./arr_SORTED_INVERSE_200000.txt").
 data_base["SORTED_INVERSE_50000"] = require("./arr_SORTED_INVERSE_50000.txt").data;
 
 
-var iterations = 1;
+var iterations = 20;
 
 var data = [];
 var stats = require('measured');
@@ -29,7 +29,6 @@ var test_iteration = 0;
 printHelp();
 
 for(var experiment in data_base){
-
 	console.log("Array ("+experiment+") of length "+data_base[experiment].length+" at quicksort_iterativ() with "+iterations+" iterations");
 	console.log("==================================================================================");
 	var timer = new stats.Timer();
@@ -43,7 +42,6 @@ for(var experiment in data_base){
 	}
 	console.log(timer.toJSON().histogram);
 	console.log("\n\n\n");
-
 
 
 	console.log("Array ("+experiment+") of length "+data_base[experiment].length+" at quicksort_recursiv() with "+iterations+" iterations");
@@ -60,6 +58,8 @@ for(var experiment in data_base){
 	console.log(timer.toJSON().histogram);
 	console.log("\n\n\n");
 }
+
+console.log("--- Finished ---");
 
 //////////////////////
 //////////////////////
